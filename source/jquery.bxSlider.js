@@ -628,7 +628,7 @@
 				// wrap the <ul> in div that acts as a window and make the <ul> uber wide
 				$parent
 				.wrap('<div class="'+options.wrapperClass+'" style="width:auto; position:relative;"></div>')
-				.wrap('<div class="bx-window" style="position:relative; overflow:hidden; width: auto"></div>')
+				.wrap('<div class="bx-window" style="position:relative; overflow:hidden; width: auto;"></div>')
 				.css({
 				  width: '999999px',
 				  position: 'relative',
